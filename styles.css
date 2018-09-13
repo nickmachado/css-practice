@@ -1,31 +1,15 @@
-#unique {
-  color: gray;
-  background-color: purple;
-}
-
-.monochrome {
-  color: white;
-  background-color: black;
-}
-
-.patriotic {
-  color: red;
-  background-color: blue;
-}
-
 p {
-  border-color: slategray;
-  border width: 3px;
-  border-style: double;
-
-}
-
-P {
+  font-family: 'Monoton', cursive;
   color: white;
-  background-color: black;
 }
 
-p {
-  color: red;
-  background-color: blue;
+.thin-blue-round-border {
+  border-color: blue;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+#paragraph-background-color {
+  background: linear-gradient(#e66465, #9198e5);
 }
